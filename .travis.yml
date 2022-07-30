@@ -13,9 +13,10 @@ notifications:
   email:
     recipients:
       - ja.vega.g10@gmail.com
-      - julian.vega@uao.edu.com
+      - julian.vega@uao.edu.co
     on_success: always
     on_failure: always
+  slack: practicetravisci:f7Yph80c76XhpYxYnqBOxkfV
 deploy:
   provider: pages
   skip_cleanup: true
